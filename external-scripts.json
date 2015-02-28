@@ -12,6 +12,7 @@
   "hubot-shipit",
   "hubot-youtube",
 
+  "hubot-scripts",
   "hubot-reaction",
   "hubot-thank-you"
 ]
