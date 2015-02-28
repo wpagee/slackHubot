@@ -1,5 +1,5 @@
 [
-  //defaults
+
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
@@ -12,7 +12,6 @@
   "hubot-shipit",
   "hubot-youtube",
 
-  //custom
   "hubot-reaction",
   "hubot-thank-you"
 ]
