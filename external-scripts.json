@@ -1,4 +1,5 @@
 [
+  //defaults
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
@@ -9,5 +10,9 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-youtube"
+  "hubot-youtube",
+
+  //custom
+  "hubot-reaction",
+  "hubot-thank-you"
 ]
