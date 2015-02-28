@@ -10,6 +10,9 @@
 
 module.exports = (robot) ->
 
+  robot.hear /52apps/i, (msg) ->
+    msg.send "52apps? You means :52inc:"
+
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "billy@52inc.com",
-  "description": "A simple helpful robot for your Company",
+  "description": "A simple helpful robot for 52inc",
   "dependencies": {
     "hubot": "^2.11.1",
     "hubot-diagnostics": "0.0.1",
