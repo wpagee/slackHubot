@@ -1,1 +1,1 @@
-web: HUBOT_SLACK_TOKEN=xoxb-3372192001-GkhzaZTevvk3JpodmUi5cdWP bin/hubot -a slack -n hubot
+web: bin/hubot -a slack -n hubot

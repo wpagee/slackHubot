@@ -10,6 +10,8 @@
 
 module.exports = (robot) ->
 
+  HUBOT_SLACK_TOKEN=xoxb-3372192001-GkhzaZTevvk3JpodmUi5cdWP
+
   robot.hear /52apps/i, (msg) ->
     msg.send "52apps? You means :52inc:"
 
