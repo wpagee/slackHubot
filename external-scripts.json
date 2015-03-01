@@ -15,5 +15,6 @@
   "hubot-bitcoin",
   "hubot-reaction",
   "hubot-thank-you",
-  "hubot-voting"
+  "hubot-voting",
+  "hubot-remind-at"
 ]
