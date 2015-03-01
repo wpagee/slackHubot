@@ -14,5 +14,6 @@
 
   "hubot-bitcoin",
   "hubot-reaction",
-  "hubot-thank-you"
+  "hubot-thank-you",
+  "hubot-voting"
 ]
