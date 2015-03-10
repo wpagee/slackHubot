@@ -18,9 +18,16 @@ module.exports = (robot) ->
     corgiMe msg, 'Pembroke Welsh Corgi', false, (url) ->
       msg.send url
 
-  robot.respond /corgi me please/i, (msg) ->
+  robot.respond /corgi please/i, (msg) ->
     corgiMe msg, 'Pembroke Welsh Corgi', true, (url) ->
       msg.send url
+
+  robot.respond /ascii( me)? (.+)/i, (msg) ->
+    msg
+    .http("http://asciime.heroku.com/generate_ascii")
+    .query(s: msg.match[2].split(' ').join('  '))
+    .get() (err, res, body) ->
+      msg.send body
 
 corgiMe = (msg, query, animated, faces, cb) ->
   cb = animated if typeof animated == 'function'
